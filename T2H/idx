@@ -3,7 +3,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Live Hex Converter</title>
-<!-- StyleSheet -->
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,8 +10,16 @@
   <div id="hex-output" class="hex-output">Starexx | Shah G Creator</div>
   <textarea id="my-text" rows="8" placeholder="Type something here..."></textarea>
 </div>
-<!-- JavaScript -->
-<script src="main.js">
-</script>
+
+<!-- Tum pop-up massage ko apne according change kr sakte ho -->
+<div id="overlay" class="overlay"></div>
+<div id="popup" class="popup">
+  <h3 id="popup-title">Shah G Creator</h3>
+  <p id="popup-description">The Hex Output has been copied to clipboard.</p>
+  <button id="popup-close">OK</button>
+</div>
+
+<!-- Javascript code yeha se start hai -->
+<script src="main.js"></script>
 </body>
 </html>
