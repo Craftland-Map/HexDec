@@ -12,7 +12,7 @@ function textToHex(text) {
     let hex = textToHex(text);
     let lengthHex = lengthToHex(text.length);
   
-    document.getElementById("hex-output").textContent = `${lengthHex}${hex}`;
+    document.getElementById("hex-output").textContent = `12${lengthHex}${hex}`;
   });
   
   document.getElementById("hex-output").addEventListener("click", () => {
